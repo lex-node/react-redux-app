@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.jokeBoxesContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+}
+
+.jokeBox {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  margin: 4px;
+}
+
+.invisibleElement {
+  display: none;
+}
+
+.visibleElement {
+  display: flex;
+}
