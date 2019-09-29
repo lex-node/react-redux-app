@@ -13,7 +13,7 @@ function reducer(state = initialState, action) {
         case FETCH_DATA_SUCCESS:
             return {
                 ...state,
-                characters: action.payload
+                jokes: action.payload
                 isFetching: false,
                 error: "none"
             };
