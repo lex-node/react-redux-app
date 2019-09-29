@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .App-logo {
@@ -19,4 +21,18 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.jokeBoxesContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+}
+
+.jokeBox {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  margin: 4px;
 }

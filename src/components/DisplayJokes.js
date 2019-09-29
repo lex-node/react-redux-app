@@ -11,7 +11,7 @@ const mapStateToProps = state => ({
 class DisplayJokes extends React.Component {
     render() {
         return (
-            <div>
+            <div className="jokeBoxesContainer">
                 <button onClick={() => this.props.getData()}>Get Random Jokes</button>
                 {this.props.jokes.map(joke => (
                     <DisplayJoke key={joke.id} joke={joke}/>
