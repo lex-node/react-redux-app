@@ -7,11 +7,12 @@ export const FETCH_DATA_FAIL = 'FETCH_DATA_FAIL';
 export const getData = (dispatch) => {
     dispatch({type: FETCH_DATA_START});
     axios
-        .get("")
+        .get("https://official-joke-api.appspot.com/random_ten")
         .then(res => {
+            console.log(res);
             dispatch({
                 type: FETCH_DATA_SUCCESS,
-                payload: res.data.results
+                payload: res.data
             })
         })
         .catch(err => {
