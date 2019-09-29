@@ -36,3 +36,11 @@
   border-color: black;
   margin: 4px;
 }
+
+.invisibleElement {
+  display: none;
+}
+
+.visibleElement {
+  display: flex;
+}
